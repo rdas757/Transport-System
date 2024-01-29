@@ -1,0 +1,21 @@
+.App {
+    background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.AppGlass {
+    display: grid;
+    height: 97%;
+    width: 97%;
+    border-radius: 2rem;
+    /* background: rgba(15, 14, 14, 0.042);
+    backdrop-filter: saturation(180%) blur(10px); */
+    background-color: var(--glass); /*frosty glass filter*/
+    overflow: hidden;
+    grid-template-columns: 15rem auto;
+}
+
